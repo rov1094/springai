@@ -1,0 +1,10 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+# Git related config files
+.gitattributes
+.gitignore
+
+# Maven wrapper files
+.mvn/
+mvnw
+mvnw.cmd
