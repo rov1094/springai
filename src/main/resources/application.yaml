@@ -1,15 +1,14 @@
 spring:
   application:
     name: spring-ai
-#  ai:
-#    google:
-#      genai:
-#        api-key: ${GOOGLE_API_KEY}
-#  ai:
-#    openai:
-#      api-key: ${OPEN_API_KEY}
-
   ai:
+    google:
+      genai:
+        api-key: ${GOOGLE_API_KEY}
+    openai:
+      api-key: ${OPEN_API_KEY}
+
+#  ai:
     ollama:
       base-url: http://localhost:11434/
       chat:
