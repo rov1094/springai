@@ -60,3 +60,16 @@ Different system roles → different behavior
 
 System roles enforce rules.  
 User messages reinforce safety.
+
+
+# Prompt Template and Stuffing
+## 1 Prompt Template :
+- Created by file name {file_name}.st under resource
+- Passed in service as an rescource
+- `@Value("classpath: prompts/order_system_template.st)
+    private Resource orderSystemTemplate;`
+- And above resource is passed in system() or user() message roles of a prompt
+
+## 2 Prompt Stuffing :
+- Loads policy of the system/application, just that to avoid generic messages given by the llm
+- This is used for limited use case, for files based or large data set based we need to use RAG to load the policy
