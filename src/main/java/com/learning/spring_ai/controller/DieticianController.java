@@ -1,6 +1,6 @@
 package com.learning.spring_ai.controller;
 
-import com.learning.spring_ai.service.promptstuffing.DieticianPromptStuffing;
+import com.learning.spring_ai.promptstuffing.DieticianPromptStuffing;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

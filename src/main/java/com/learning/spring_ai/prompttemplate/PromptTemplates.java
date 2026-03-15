@@ -1,4 +1,4 @@
-package com.learning.spring_ai.service.prompttemplate;
+package com.learning.spring_ai.prompttemplate;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;

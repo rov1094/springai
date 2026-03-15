@@ -1,4 +1,4 @@
-package com.learning.spring_ai.service.promptstuffing;
+package com.learning.spring_ai.promptstuffing;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Value;

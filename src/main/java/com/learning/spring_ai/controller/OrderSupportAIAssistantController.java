@@ -1,7 +1,7 @@
 package com.learning.spring_ai.controller;
 
-import com.learning.spring_ai.service.promptstuffing.OrderPromptStuffing;
-import com.learning.spring_ai.service.prompttemplate.OrderSupportAIAssistantService;
+import com.learning.spring_ai.promptstuffing.OrderPromptStuffing;
+import com.learning.spring_ai.prompttemplate.OrderSupportAIAssistantService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
